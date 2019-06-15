@@ -1,0 +1,12 @@
+@namespace("com.zenika.testavro")
+protocol Common {
+
+/** A common header */
+  record CommonHeader {
+  /** The key */
+    string key;
+  /** The value */
+    string value;
+  }
+
+}

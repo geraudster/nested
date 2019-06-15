@@ -1,0 +1,15 @@
+@namespace("com.zenika.testavro")
+protocol CustomerProtocol {
+
+  import idl "header.avdl";
+
+/** The customer record */
+  record Customer {
+  /** The header */
+    CommonHeader header;
+
+  /** The customer name */
+    string customerName;
+
+  }
+}
