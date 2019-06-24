@@ -1,5 +1,7 @@
 # Avro schemas dependencies test
 
+![Dependency graph](https://yuml.me/2ec66bbf.png)
+
 ```sh
 mvn clean install
 mvn -f customer-producer/pom.xml jib:dockerBuild
